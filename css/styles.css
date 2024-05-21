@@ -51,7 +51,7 @@ li{
 
 }
 
-/* Color banber y footer */
+/* Color banner y footer */
 
 .color-banner-footer{
     color:black;
@@ -64,8 +64,9 @@ li{
 }
 
 
+/* Formato Body */
 
-body {
+body{
     background-image: url('/Imagenes/beautiful-young-woman-home-office-working-from-home-teleworking-concept.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
@@ -112,4 +113,10 @@ article{
     width: 300px;
     margin: 35px;
 
+}
+
+/*Formato Formulario de Contacto*/
+
+.formulario{
+    background-color: black;
 }
