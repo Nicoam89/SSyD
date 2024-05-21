@@ -11,6 +11,8 @@
 .titulo{
     text-align: center; 
     padding-bottom: 1%;
+    color:black;
+    background-color: white;
 
 }
 
@@ -26,7 +28,7 @@
 
 li{
     color: black;
-    list-style-type: square;
+    list-style-type:square;
 
 }
 
@@ -42,6 +44,7 @@ li{
 .banner{
     object-fit: fill;
     height: 150px;
+
 }
 
 /* color fondo */
@@ -51,14 +54,9 @@ li{
 
 }
 
-/* Color banner y footer */
+/* Formato footer */
 
-.color-banner-footer{
-    color:black;
-    background-color: white;
-}
-
-.color-footer{
+.footer{
     color:black;
     background-color: white;
 }
@@ -115,8 +113,30 @@ article{
 
 }
 
+/*Formato Porfolio*/
+
+.porfolio{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.elemento-porfolio{
+    text-align: center;
+
+}
+
 /*Formato Formulario de Contacto*/
 
 .formulario{
-    background-color: black;
+    background-color: #2B60B3;
+    align-content: center;
+
+    
+}
+.button[type="submit"]:hover {
+    background-color: #4cae4c;
 }

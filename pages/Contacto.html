@@ -14,7 +14,7 @@
     <!-- Titulo Pagina  -->
     <title>SIpE - Soluciones Informaticas para Emprendedores</title>
 </head>
-<header class="font-principal color-banner-footer titulo">
+<header class="font-principal banner titulo">
     <!-- Titulo con Logo Pagina -->
     <img class="banner" src="/Imagenes/Logo.png" alt="Logo SIpE">
     <H1>Soluciones Informaticas para Emprendedores</H1>
@@ -35,10 +35,24 @@
 <body class="font-principal color-fondo">
   <h2>Formulario de Contacto</h2>
   <!--Formulario de Contacto-->
-    <input class="formulario" type="text">
-
-
-    <footer class="font-principal color-footer">
+  <main>
+  <form class="formulario" action="">
+    <div>
+      <label for="name">Nombre y Apellido:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="E-Mail">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+      <button type="submit">Enviar</button>
+  </form>
+  </main>
+    <footer class="font-principal footer">
       <li><a>Redes Sociales</a>
         <ul>
          <li><a href="" target="_blank">Instagram</a></li>
@@ -50,6 +64,6 @@
         </li>
         <p>Desarrollado por SIpE - Soluciones Informaticas para Emprendedores (R)</p>
     </footer>
-    </body>
+  </body>
     
     </html>
