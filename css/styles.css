@@ -1,0 +1,115 @@
+/* Font cabecera */
+.fugaz-one-regular {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/*formato titulo principal*/
+
+.titulo{
+    text-align: center; 
+    padding-bottom: 1%;
+
+}
+
+/* Font Principal */
+.font-principal {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+
+/*Formato Listas*/
+
+li{
+    color: black;
+    list-style-type: square;
+
+}
+
+/* Formato Cabecera */
+
+.cabecera{
+    text-align: center;
+
+}
+
+/*Formato Banner*/
+
+.banner{
+    object-fit: fill;
+    height: 150px;
+}
+
+/* color fondo */
+
+.color-fondo{
+    background-color: #2B60B3;
+
+}
+
+/* Color banber y footer */
+
+.color-banner-footer{
+    color:black;
+    background-color: white;
+}
+
+.color-footer{
+    color:black;
+    background-color: white;
+}
+
+
+
+body {
+    background-image: url('/Imagenes/beautiful-young-woman-home-office-working-from-home-teleworking-concept.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+
+}
+
+/*formato navegador*/
+
+
+aside{
+	position: sticky;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+/*formato items navegador*/
+
+.navegador a{
+    color: white
+
+}
+
+/*formato articulo*/
+
+article{
+    padding: 6rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+/*Formato Imagenes Porfolio*/
+
+.imagen-porfolio{
+    height: 300px;
+    width: 300px;
+    margin: 35px;
+
+}
