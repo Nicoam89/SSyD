@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 /* Font cabecera */
 .fugaz-one-regular {
     font-family: "Fugaz One", sans-serif;
@@ -85,9 +93,15 @@ aside{
 	align-content: stretch;
 }
 
+/* Formato Main */
+
+main{
+    gap: 33rem
+}
+
 /*formato items navegador*/
 
-.navegador a{
+.navegador{
     color: white
 
 }

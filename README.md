@@ -1,4 +1,4 @@
-Repositorio del emprendimiento SIpE: Soluciones Informaticas para Emprendedores
+Repositorio del emprendimiento SS&D Consultora: Soluciones Simples & Dinamicas
 
 Proyecto Coderhouse - Desarrollo Web - Comisión 57650
 
