@@ -11,7 +11,7 @@
     font-family: "Fugaz One", sans-serif;
     font-weight: 400;
     font-style: normal;
-
+    
 }
 
 /*formato titulo principal*/
@@ -59,6 +59,8 @@
 .footer{
     color:black;
     background-color: white;
+    padding: 2rem;
+    text-align: center;
 }
 
 
@@ -69,7 +71,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
-
+    
 }
 
 /*formato navegador*/
@@ -95,7 +97,7 @@ main{
 
 .navegador{
     color: white
-
+    
 }
 
 /*formato articulo*/
@@ -121,8 +123,9 @@ article{
 
 /*Formato Porfolio*/
 
-.h3{
-    padding: 2rem;
+h3{
+    padding: 1rem;
+
 }
 
 .elemento-porfolio{
@@ -146,3 +149,71 @@ article{
     color: white
 
 }
+
+/*Formato Listas*/
+
+li{
+    list-style: none;
+}
+
+/*Formato parrafos*/
+
+p{
+    padding: 1rem;
+}
+
+
+/*Sombra Texto */
+
+h1 {
+    text-shadow: 
+      2px 2px 0 #000, 
+      -2px -2px 0 #000, 
+      2px -2px 0 #000, 
+      -2px 2px 0 #000, 
+      2px 0 0 #000, 
+      -2px 0 0 #000, 
+      0 2px 0 #000, 
+      0 -2px 0 #000;
+  }
+
+h2 {
+    text-shadow: 
+      2px 2px 0 #000, 
+      -2px -2px 0 #000, 
+      2px -2px 0 #000, 
+      -2px 2px 0 #000, 
+      2px 0 0 #000, 
+      -2px 0 0 #000, 
+      0 2px 0 #000, 
+      0 -2px 0 #000;
+  }
+
+
+h3 {
+    text-shadow: 
+      2px 2px 0 #000, 
+      -2px -2px 0 #000, 
+      2px -2px 0 #000, 
+      -2px 2px 0 #000, 
+      2px 0 0 #000, 
+      -2px 0 0 #000, 
+      0 2px 0 #000, 
+      0 -2px 0 #000;
+  }
+
+
+  /* Formato Links */
+
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /*Formato Arituculo Princial*/
+
+.contenido-principal{
+    text-align: center;
+
+
+  }
