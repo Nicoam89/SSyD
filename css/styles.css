@@ -71,33 +71,21 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
-    
+    max-width: fit-content;
 }
 
 /*formato navegador*/
 
-
-aside{
-	position: sticky;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+.navegador{
+    color: white
+    
 }
+
 
 /* Formato Main */
 
 main{
-    gap: 33rem
-}
-
-/*formato items navegador*/
-
-.navegador{
-    color: white
-    
+    gap: 3rem
 }
 
 /*formato articulo*/
@@ -202,6 +190,17 @@ h3 {
       0 -2px 0 #000;
   }
 
+  .textos-home{
+    text-shadow: 
+    2px 2px 0 #000, 
+    -2px -2px 0 #000, 
+    2px -2px 0 #000, 
+    -2px 2px 0 #000, 
+    2px 0 0 #000, 
+    -2px 0 0 #000, 
+    0 2px 0 #000, 
+    0 -2px 0 #000;
+}
 
   /* Formato Links */
 
@@ -217,3 +216,20 @@ h3 {
 }
 
 
+
+/* Grid Index */
+
+.grilla-index {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: fit-content;
+    }
+    
+.titulo { grid-area: 1 / 1 / 2 / 6; }
+.grilla-nav { grid-area: 2 / 1 / 4 / 2; }
+.grilla-mision { grid-area: 2 / 2 / 4 / 6; }
+.grilla-valores { grid-area: 4 / 2 / 7 / 6; }
+    
