@@ -215,8 +215,30 @@ h3 {
     text-align: center;
 }
 
+/* Grid Index Movil*/
 
-/* Grid Index */
+@media screen and (max-width: 1199px) {
+    
+    .grilla-index {
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.5fr 1.5fr repeat(3, 1fr); 
+        gap: 0px 0%; 
+        grid-template-areas: 
+          "grilla-titulo"
+          "grilla-nav"
+          "grilla-nav"
+          "grilla-valores"
+          "grilla-footer"; 
+      }
+    }
+
+
+
+
+
+
+/* Grid Index desktop */
 
 @media screen and (min-width: 1200px) {
     
