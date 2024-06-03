@@ -221,14 +221,14 @@ h3 {
     
     .grilla-index {  
         display: grid; 
-        grid-template-columns: 1fr; 
+        grid-template-columns: 2fr; 
         grid-template-rows: repeat(4, 1fr); 
         gap: 0px 0%; 
         grid-template-areas: 
-          "grilla-titulo"
-          "grilla-nav"
-          "grilla-valores"
-          "grilla-footer"; 
+          "grilla-titulo    grilla-titulo"
+          "grilla-nav       grilla-nav"
+          "grilla-valores   grilla-valores"
+          "grilla-footer    grilla-footer";
 
     }
 }
