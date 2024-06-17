@@ -108,6 +108,14 @@ article{
 	align-content: stretch;
 }
 
+/* Formato Porfolio */
+
+
+.elemento-porfolio{
+    text-align: center;
+    margin: 2%;
+}
+
 /*Formato Imagenes Porfolio*/
 
 .imagen-porfolio{
@@ -121,10 +129,11 @@ article{
 /*Formato Formulario de Contacto*/
 
 .formulario{
-    background-color: #2B60B3;
+
     align-content: center;
     padding: 5%;
-    
+    padding-left: 12%;
+    padding-right: 12%;
 }
 .button[type="submit"]:hover {
     background-color: #4cae4c;
@@ -134,6 +143,10 @@ article{
     color: white
 
 }
+
+.btn{
+    max-width: 10%;
+  }
 
 /*Formato Listas*/
 
@@ -271,5 +284,3 @@ a{
     background-color: white;
     color: #2B60B3;
 }
-
-/* Subtitulos */
