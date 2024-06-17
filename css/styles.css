@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 
@@ -19,8 +20,8 @@
 .titulo{
     text-align: center; 
     padding-bottom: 1%;
-    color:black;
-    background-color: white;
+    padding-top: 1%;
+    background-color: #2B60B3;
 
 }
 
@@ -32,6 +33,12 @@
     color: white
 }
 
+/* Formato Subtitulos */
+
+.sub-titulo{
+    text-align: center; 
+
+}
 /* Formato Cabecera */
 
 .cabecera{
@@ -43,8 +50,9 @@
 
 .banner{
     object-fit: fill;
-    height: 150px;
-
+    height: 5rem;
+    text-align: center;
+    background-color: white;
 }
 
 /* color fondo */
@@ -57,8 +65,8 @@
 /* Formato footer */
 
 .footer{
-    color:black;
-    background-color: white;
+    color:white;
+    background-color: #2B60B3;
     padding: 2rem;
     text-align: center;
 }
@@ -71,21 +79,21 @@ body{
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
-    max-width: 1600px;
+  
 }
-
-/*formato navegador*/
-
-.navegador{
-    color: white
-    
-}
-
 
 /* Formato Main */
 
 main{
     gap: 1rem
+}
+
+
+/*Formato Navegador*/
+
+.nav{
+    background-color: #2B60B3;
+
 }
 
 /*formato articulo*/
@@ -105,28 +113,17 @@ article{
 .imagen-porfolio{
     height: 300px;
     width: 300px;
-    margin: 35px;
+    margin: 2%
 
 }
 
-/*Formato Porfolio*/
-
-h3{
-    padding: 1rem;
-
-}
-
-.elemento-porfolio{
-    text-align: center;
-
-}
 
 /*Formato Formulario de Contacto*/
 
 .formulario{
     background-color: #2B60B3;
     align-content: center;
-
+    padding: 5%;
     
 }
 .button[type="submit"]:hover {
@@ -190,6 +187,31 @@ h3 {
       0 -2px 0 #000;
   }
 
+  h4 {
+    text-shadow: 
+      2px 2px 0 #000, 
+      -2px -2px 0 #000, 
+      2px -2px 0 #000, 
+      -2px 2px 0 #000, 
+      2px 0 0 #000, 
+      -2px 0 0 #000, 
+      0 2px 0 #000, 
+      0 -2px 0 #000;
+  }
+
+ p {
+    text-shadow: 
+      2px 2px 0 #000, 
+      -2px -2px 0 #000, 
+      2px -2px 0 #000, 
+      -2px 2px 0 #000, 
+      2px 0 0 #000, 
+      -2px 0 0 #000, 
+      0 2px 0 #000, 
+      0 -2px 0 #000;
+  }
+
+
   .textos-home{
     text-shadow: 
     2px 2px 0 #000, 
@@ -205,9 +227,15 @@ h3 {
   /* Formato Links */
 
   a:visited {
-    color: inherit;
+    color: white;
     text-decoration: none;
   }
+  
+a{
+    color: white;
+    text-decoration: none;
+
+}
 
   /*Formato Arituculo Princial*/
 
@@ -215,71 +243,33 @@ h3 {
     text-align: center;
 }
 
-/* Grid Index Movil*/
 
-@media screen and (max-width: 1199px) {
-    
-    .grilla-index {  
-        display: grid; 
-        grid-template-columns: 2fr; 
-        grid-template-rows: repeat(4, 1fr); 
-        gap: 0px 0%; 
-        grid-template-areas: 
-          "grilla-titulo    grilla-titulo"
-          "grilla-nav       grilla-nav"
-          "grilla-valores   grilla-valores"
-          "grilla-footer    grilla-footer";
+ /*Formato Navedador*/
 
+.navegador{
+    text-align: center;
+    padding: 1%;
+    text-shadow: 
+        2px 2px 0 #000, 
+        -2px -2px 0 #000, 
+        2px -2px 0 #000, 
+        -2px 2px 0 #000, 
+        2px 0 0 #000, 
+        -2px 0 0 #000, 
+        0 2px 0 #000, 
+        0 -2px 0 #000;
     }
+.item-nav{
+    margin-top: 5%;
+    padding: 10px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+
 }
 
-
-/* Grid Index desktop */
-
-@media screen and (min-width: 1200px) {
-    
-.grilla-index {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
- 
-    grid-auto-flow: row;
-    grid-template-areas:
-      "grilla-titulo grilla-titulo grilla-titulo grilla-titulo"
-      "grilla-nav grilla-mision grilla-mision grilla-mision"
-      "grilla-nav grilla-mision grilla-mision grilla-mision"
-      ". grilla-valores grilla-valores grilla-valores"
-      ". grilla-valores grilla-valores grilla-valores"
-      "grilla-footer grilla-footer grilla-footer grilla-footer";
-  }
+.item-nav:hover {
+    background-color: white;
+    color: #2B60B3;
 }
-  .grilla-titulo { grid-area: grilla-titulo; }
-  
-  .grilla-nav { grid-area: grilla-nav; }
-  
-  .grilla-mision { grid-area: grilla-mision; }
-  
-  .grilla-valores { grid-area: grilla-valores; }
-  
-  .grilla-footer { grid-area: grilla-footer; }
-  
 
-.grilla-titulo {
-    grid-area: grilla-titulo;
- }
- 
- .grilla-nav {
-    grid-area: grilla-nav;
- }
-
- .grilla-mision {
-    grid-area: grilla-mision;
- }
-
- .grilla-valores {
-    grid-area: grilla-valores;
- }
-
- .grilla-footer {
-    grid-area: grilla-footer;
- }
+/* Subtitulos */

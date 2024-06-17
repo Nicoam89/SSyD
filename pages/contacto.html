@@ -9,62 +9,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <!-- CDN Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- link style sheet -->
     <link rel="stylesheet" href="/css/styles.css">
     <!-- Titulo Pagina  -->
     <title>SS&D Consultora - Soluciones Simples & Dinamicas</title>
-</head>
-<header class="font-principal banner titulo">
-    <!-- Titulo con Logo Pagina -->
-    <img class="banner" src="/Imagenes/Logo.png" alt="Logo SS&D Consultora">
-    <H1>Soluciones Simples & Dinamicas</H1>
+  </head>
 
-</header>
-<aside>
-  <nav class="navegador">
-    <li>
-      <h3><a href="/index.html">Home</a></h3>
-      <h3><a href="./aboutme.html">Quien Soy</a></h3>
-      <h3><a href="./servicios-ofrecidos.html">Servicios Ofrecidos</a></h3>
-      <h3><a href="./porfolio.html">Porfolio</a></h3>
-      <h3><a href="./contacto.html">Contacto</a></h3> 
-    </li>
-  </nav>
- </aside>
-
-<body class="font-principal color-fondo">
- 
+  <body class="font-principal color-fondo">
+  
+    <div class="">
+      <div class="">
+        <div class="col">
+        <header class="font-principal banner ">
+          <!-- Titulo con Logo Pagina -->
+          <img class="banner" src="/Imagenes/Logo.png" alt="Logo SS&D Consultora">
+        </header>
+        </div>
+      <div class="row titulo">
+        <H1 class="col">Soluciones Simples & Dinamicas</H1>
+      </div>
+  
+  
+        <!-- Navegador -->
+        <div class="row">
+          <div class="col">
+              <nav class="navegador">
+                  <a class="item-nav" href="/index.html">Home</a>
+                  <a class="item-nav" href="/pages/aboutme.html">Quien Soy</a>
+                  <a class="item-nav" href="/pages/servicios-ofrecidos.html">Servicios Ofrecidos</a>
+                  <a class="item-nav" href="/pages/porfolio.html">Porfolio</a>
+                  <a class="item-nav" href="/pages/contacto.html">Contacto</a> 
+              </nav>
+           </div>
+        </div>
+  
+  
    <!--Formulario de Contacto-->
-  <h2>Formulario de Contacto</h2>
-  <main class="contenido-principal">
-  <form class="formulario" action="">
-    <section>
-      <label for="name">Nombre y Apellido:</label>
-      <input type="text" id="name" name="name" required>
-    </section>
-    <section>
-      <label for="E-Mail">E-Mail:</label>
-      <input type="email" id="email" name="email" required>
-    </section>
-    <section>
-      <label for="message">Mensaje:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </section>
-      <button type="submit">Enviar</button>
+   <div class="row">
+  <h2 class="sub-titulo col">Formulario de Contacto</h2>
+  </div>
+  <form class="row formulario">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      
+        </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
-  </main>
-    <footer class="font-principal footer">
-      <h4>Redes Sociales</h4>
-        <ul>
-         <li><a href="https://www.instagram.com/SSPE_ok/" target="_blank">Instagram</a></li>
-         <li><a href="" target="_blank">Facebook</a></li>
-         <li><a href="" target="_blank">TickTok</a></li>
-         <li><a href="" target="_blank">Linkedin</a></li>
-         <li><a href="" target="_blank">Fiverr</a></li>
-        </ul>
 
-        <p>Desarrollado por SS&D Consultora - Soluciones Simples & Dinamicas ®</p>
-    </footer>
+    <!--Footer - Redes Sociales -->
+    <div class="col">
+      <footer class="font-principal footer">
+          <ul>
+            <h4 class="sub-titulo">Redes Sociales</h4>
+            <li><a href="https://www.instagram.com/SS&D_Consultora/" target="_blank">Instagram</a></li>
+            <li><a href="" target="_blank">TickTok</a></li>
+            <li><a href="" target="_blank">Linkedin</a></li>
+            <li><a href="" target="_blank">Fiverr</a></li>
+          </ul>
+
+          <p>Desarrollado por SS&D Consultora - Soluciones Simples & Dinamicas ®</p>
+      </footer>
+    </div>
   </body>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script> 
     </html>
