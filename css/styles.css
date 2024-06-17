@@ -164,78 +164,90 @@ p{
 /*Sombra Texto */
 
 h1 {
-    text-shadow: 
-      2px 2px 0 #000, 
-      -2px -2px 0 #000, 
-      2px -2px 0 #000, 
-      -2px 2px 0 #000, 
-      2px 0 0 #000, 
-      -2px 0 0 #000, 
-      0 2px 0 #000, 
-      0 -2px 0 #000;
-  }
-
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+}
 h2 {
-    text-shadow: 
-      2px 2px 0 #000, 
-      -2px -2px 0 #000, 
-      2px -2px 0 #000, 
-      -2px 2px 0 #000, 
-      2px 0 0 #000, 
-      -2px 0 0 #000, 
-      0 2px 0 #000, 
-      0 -2px 0 #000;
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
   }
 
 
 h3 {
-    text-shadow: 
-      2px 2px 0 #000, 
-      -2px -2px 0 #000, 
-      2px -2px 0 #000, 
-      -2px 2px 0 #000, 
-      2px 0 0 #000, 
-      -2px 0 0 #000, 
-      0 2px 0 #000, 
-      0 -2px 0 #000;
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
   }
 
   h4 {
-    text-shadow: 
-      2px 2px 0 #000, 
-      -2px -2px 0 #000, 
-      2px -2px 0 #000, 
-      -2px 2px 0 #000, 
-      2px 0 0 #000, 
-      -2px 0 0 #000, 
-      0 2px 0 #000, 
-      0 -2px 0 #000;
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
   }
 
  p {
-    text-shadow: 
-      2px 2px 0 #000, 
-      -2px -2px 0 #000, 
-      2px -2px 0 #000, 
-      -2px 2px 0 #000, 
-      2px 0 0 #000, 
-      -2px 0 0 #000, 
-      0 2px 0 #000, 
-      0 -2px 0 #000;
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
   }
 
 
   .textos-home{
-    text-shadow: 
-    2px 2px 0 #000, 
-    -2px -2px 0 #000, 
-    2px -2px 0 #000, 
-    -2px 2px 0 #000, 
-    2px 0 0 #000, 
-    -2px 0 0 #000, 
-    0 2px 0 #000, 
-    0 -2px 0 #000;
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
 }
+
+.form-label{
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+}
+
 
   /* Formato Links */
 
@@ -261,16 +273,16 @@ a{
 
 .navegador{
     text-align: center;
-    padding: 1%;
-    text-shadow: 
-        2px 2px 0 #000, 
-        -2px -2px 0 #000, 
-        2px -2px 0 #000, 
-        -2px 2px 0 #000, 
-        2px 0 0 #000, 
-        -2px 0 0 #000, 
-        0 2px 0 #000, 
-        0 -2px 0 #000;
+    margin: 1%;
+    text-shadow:     
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
     }
 .item-nav{
     margin-top: 5%;
