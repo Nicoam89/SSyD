@@ -1,0 +1,74 @@
+/* Font cabecera */
+.fugaz-one-regular {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+/*formato titulo principal*/
+
+.titulo{
+    text-align: center; 
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: $MainColor;
+
+}
+
+/* Formato Cabecera */
+
+.cabecera{
+    text-align: center;
+
+}
+
+/*Formato Banner*/
+
+.banner{
+    object-fit: fill;
+    height: 5rem;
+    text-align: center;
+    background-color: white;
+}
+
+/*Sombra Texto */
+
+h1 {
+    text-shadow: $Sombreadotexto;
+}
+
+
+/*Animacion Logo*/
+
+.flip-in-hor-bottom {
+	-webkit-animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: flip-in-hor-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes flip-in-hor-bottom {
+    0% {
+      -webkit-transform: rotateX(80deg);
+              transform: rotateX(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes flip-in-hor-bottom {
+    0% {
+      -webkit-transform: rotateX(80deg);
+              transform: rotateX(80deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+      opacity: 1;
+    }
+  }
+  

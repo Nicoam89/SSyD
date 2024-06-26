@@ -1,0 +1,18 @@
+/*formato articulos*/
+
+article{
+    padding: 3rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+
+	
+}
+
+
+.contenido-principal{
+	text-align: center;
+}

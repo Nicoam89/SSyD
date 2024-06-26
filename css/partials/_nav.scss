@@ -1,0 +1,29 @@
+/*Formato Navegador*/
+
+.navegador{
+    text-align: center;
+    margin: 1%;
+
+    text-shadow: $Sombreadotexto;    
+
+     .item-nav{
+        margin-top: 5%;
+        padding: 10px;
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+
+        }
+    
+    }
+
+    
+.item-nav:hover {
+    background-color: white;
+    color: $MainColor;
+}
+
+.nav{
+    background-color: $MainColor;
+
+}
+

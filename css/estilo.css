@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Font cabecera */
+.fugaz-one-regular {
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*formato titulo principal*/
+.titulo {
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: #2B60B3;
+}
+
+/* Formato Cabecera */
+.cabecera {
+  text-align: center;
+}
+
+/*Formato Banner*/
+.banner {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 5rem;
+  text-align: center;
+  background-color: white;
+}
+
+/*Sombra Texto */
+h1 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+/*Animacion Logo*/
+.flip-in-hor-bottom {
+  animation: flip-in-hor-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes flip-in-hor-bottom {
+  0% {
+    transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+/* Font Principal */
+.font-principal {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+/* Formato Subtitulos */
+.sub-titulo {
+  text-align: center;
+}
+
+/* color fondo */
+.color-fondo {
+  background-color: #2B60B3;
+}
+
+/* Formato Body */
+body {
+  background-image: url("/Imagenes/beautiful-young-woman-home-office-working-from-home-teleworking-concept.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Formato Main */
+main {
+  gap: 1rem;
+}
+
+/*Formato Listas*/
+li {
+  list-style: none;
+}
+
+/*Formato parrafos*/
+p {
+  padding: 1rem;
+}
+
+/*Sombra Texto */
+h2 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+h3 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+h4 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+p {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+.textos-home {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+.form-label {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+
+/* Formato Links */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Formato footer */
+.footer {
+  color: white;
+  background-color: #2B60B3;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*formato articulos*/
+article {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.contenido-principal {
+  text-align: center;
+}
+
+/* Formato Porfolio */
+.elemento-porfolio {
+  text-align: center;
+  margin: 2%;
+}
+
+/*Formato Imagenes Porfolio*/
+.imagen-porfolio {
+  height: 300px;
+  width: 300px;
+  margin: 2%;
+}
+
+/*Animacion Elementos Porfolio*/
+.flip-in-hor-bottom2 {
+  animation: flip-in-hor-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes flip-in-hor-bottom {
+  0% {
+    transform: rotateX(80deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    opacity: 1;
+  }
+}
+/*Formato Formulario de Contacto*/
+.formulario {
+  align-content: center;
+  padding: 5%;
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.button[type=submit]:hover {
+  background-color: #4cae4c;
+}
+
+.valores {
+  color: white;
+}
+
+.btn {
+  max-width: 10%;
+}
+
+/*Formato Navegador*/
+.navegador {
+  text-align: center;
+  margin: 1%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000, -3px -3px 4px #000, 3px -3px 4px #000, -3px 3px 4px #000, 3px 3px 4px #000;
+}
+.navegador .item-nav {
+  margin-top: 5%;
+  padding: 10px;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+}
+
+.item-nav:hover {
+  background-color: white;
+  color: #2B60B3;
+}
+
+.nav {
+  background-color: #2B60B3;
+}
+
+.servicios-ofrecidos {
+  margin-top: 3%;
+}/*# sourceMappingURL=estilo.css.map */

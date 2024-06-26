@@ -1,0 +1,102 @@
+
+/* Font Principal */
+
+.font-principal {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+
+/* Formato Subtitulos */
+
+.sub-titulo{
+    text-align: center; 
+
+}
+
+
+/* color fondo */
+
+.color-fondo{
+    background-color: $MainColor;
+
+}
+
+/* Formato Body */
+
+body{
+    background-image: url('/Imagenes/beautiful-young-woman-home-office-working-from-home-teleworking-concept.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  
+}
+
+/* Formato Main */
+
+main{
+    gap: 1rem
+}
+
+
+
+/*Formato Listas*/
+
+li{
+    list-style: none;
+}
+
+/*Formato parrafos*/
+
+p{
+    padding: 1rem;
+}
+
+
+/*Sombra Texto */
+
+h2 {
+    text-shadow: $Sombreadotexto
+
+  }
+
+
+h3 {
+    text-shadow: $Sombreadotexto
+}
+
+  h4 {
+    text-shadow: $Sombreadotexto    
+
+  }
+
+ p {
+    text-shadow: $Sombreadotexto 
+
+  }
+
+
+  .textos-home{
+    text-shadow: $Sombreadotexto  
+
+}
+
+.form-label{
+    text-shadow: $Sombreadotexto
+
+}
+
+
+  /* Formato Links */
+
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+a{
+    color: white;
+    text-decoration: none;
+
+}
