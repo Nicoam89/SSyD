@@ -1,29 +1,40 @@
 /*Formato Navegador*/
 
-.navegador{
-    text-align: center;
-    margin: 1%;
-
-    text-shadow: $Sombreadotexto;    
-
-     .item-nav{
-        margin-top: 5%;
-        padding: 10px;
-        border: 3px solid #ffffff;
-        border-radius: 5px;
-
-        }
-    
-    }
-
-    
-.item-nav:hover {
-    background-color: white;
-    color: $MainColor;
-}
-
-.nav{
+.navbar{
     background-color: $MainColor;
 
+
 }
 
+.a{
+    text-align: center;
+    padding: 5%;
+
+}
+
+.text-muted{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.item-nav{
+    margin: 2%
+}
+
+
+.item-nav:hover{
+    background-color: $MainColor;
+}
+
+.navbar-toggler{
+    margin-left: 1%;
+}
+
+.navbar-dark{
+    background-color: white;
+
+}
