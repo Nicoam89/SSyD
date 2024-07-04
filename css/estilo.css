@@ -1,3 +1,5 @@
+/*Variables*/
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -220,7 +222,7 @@ article {
 }
 
 .item-nav {
-  margin: 2%;
+  padding: 3%;
 }
 
 .item-nav:hover {
@@ -235,6 +237,7 @@ article {
   background-color: white;
 }
 
+/*formato Servicios*/
 .servicios-ofrecidos {
   margin-top: 3%;
 }/*# sourceMappingURL=estilo.css.map */
