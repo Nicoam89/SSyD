@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Configuración del correo
-    $to = "ssydconsultorao@gmail.com"; // Reemplaza con tu correo
+    $to = "ssydconsultora@gmail.com"; // Reemplaza con tu correo
     $subject = "Mensaje de $nombreapellido";
     $body = "Nombre: $nombreapellido\nCorreo Electrónico: $email\n\nMensaje:\n$mensajecontacto";
     $headers = "From: $email";
