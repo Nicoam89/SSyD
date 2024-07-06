@@ -63,18 +63,18 @@
    <div class="row">
   <h2 class="sub-titulo col">Formulario de Contacto</h2>
   </div>
-  <form class="row formulario">
+  <form class="row formulario" method="post" action="/php/contacto.php">
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <label for="nombreapellido" class="form-label">Nombre y Apellido</label>
+      <input type="nombreapellido" class="form-control" id="nombreapellido" aria-describedby="emailHelp" name="nombreapellido">
       </div>
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">E-Mail</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="correo" class="form-label">E-Mail</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
       </div>
       <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="mensajecontacto" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensajecontacto" rows="3" name="mensajecontacto"></textarea>
       
         </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
