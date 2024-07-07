@@ -1,30 +1,24 @@
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Validar y sanitizar los datos del formulario
-    $nombreapellido = filter_var(trim($_POST["nombreapellido"]), FILTER_SANITIZE_STRING);
-    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    $mensajecontacto = filter_var(trim($_POST["mensajecontacto"]), FILTER_SANITIZE_STRING);
 
-    // Validación adicional
-    if (empty($nombreapellido) || empty($email) || empty($mensajecontacto) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Datos no válidos. Por favor, complete todos los campos y proporcione un correo electrónico válido.";
-        exit;
-    }
+$nombreapellido = $_POST['nombreapellido'];
+$email = $_POST['email'];
+$mensajecontacto = $_POST['mensajecontacto'];
 
-    // Configuración del correo
-    $to = "ssydconsultora@gmail.com"; // Reemplaza con tu correo
-    $subject = "Mensaje de $nombreapellido";
-    $body = "Nombre: $nombreapellido\nCorreo Electrónico: $email\n\nMensaje:\n$mensajecontacto";
-    $headers = "From: $email";
+$formcontent="
+    Nombre: $nombreapellido \n
+    E-mail: $email \n
+    Mensaje: $mensajecontacto
 
-    // Enviar el correo
-    if (mail($to, $subject, $body, $headers)) {
-        echo "Mensaje enviado exitosamente!";
-    } else {
-        echo "Error al enviar el mensaje. Inténtalo de nuevo más tarde.";
-    }
-} else {
-    echo "Método de solicitud no válido.";
-}
+";
+
+$recipient = "ssydssydconsultora@gmail.com";
+
+$subject = "Nueva Consulta de $email";
+
+$header = "From: $email \r\n";
+$header .= "Content-Type: text/plain; charset=UTF-8";
+mail($recipient, $subject, $formcontent, $header) or die("Error!");
+header("Location: index.html");
+
 ?>
