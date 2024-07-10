@@ -15,12 +15,13 @@ if (isset($_POST['nombre']) && isset($_POST['email']) && isset($_POST['mensaje']
   $cabecera = "MIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nFrom: $nombre <$email>\n";
 
   if (mail($para, $asunto, $cuerpo, $cabecera)) {
-    echo "Gracias por su contacto. Le responderemos a la brevedad.";
+    echo header('Location: pages/contacto-correcto.html');
+
   } else {
-    echo "Hubo un error al enviar el correo electrónico. Inténtelo de nuevo más tarde.";
+    echo header('Location: pages/contacto-error1.html');
   }
 } else {
-  echo "No se recibieron todos los datos del formulario.";
+  echo header('Location: pages/contacto-error2.html');
 }
 
 ?>

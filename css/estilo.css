@@ -240,4 +240,9 @@ article {
 /*formato Servicios*/
 .servicios-ofrecidos {
   margin-top: 3%;
+}
+
+/* Mensaje de Contacto */
+.mensaje-contacto {
+  height: 30rem;
 }/*# sourceMappingURL=estilo.css.map */
