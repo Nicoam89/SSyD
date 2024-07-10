@@ -9,7 +9,7 @@ $mensaje = htmlspecialchars(strip_tags(trim($_POST['mensaje'])));
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 // Email no válido
-header('Location: pages/contacto-error3.html');
+header('Location: pages/contacto-error2.html');
 exit();
 }
 
